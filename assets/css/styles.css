@@ -45,6 +45,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
 }
 
 hr {
@@ -227,6 +228,12 @@ nav ul li {
 
 .project-container p {
   padding: 0.4rem;
+  color: var(--primary-color);
+}
+
+.project-container h3 {
+  padding-top: 0.4rem;
+  color: var(--primary-color);
 }
 
 .project-title {
@@ -351,7 +358,7 @@ footer {
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: whitesmoke;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
