@@ -127,7 +127,7 @@ nav ul li {
 .hero img {
   max-height: 8rem;
   max-width: 8rem;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   /* margin: 5rem; */
 }
 
@@ -226,13 +226,10 @@ nav ul li {
   padding: 1rem;
 }
 
-.project-container p {
+.project-container p,
+.project-container h3,
+.project-container a {
   padding: 0.4rem;
-  color: var(--primary-color);
-}
-
-.project-container h3 {
-  padding-top: 0.4rem;
   color: var(--primary-color);
 }
 
