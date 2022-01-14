@@ -127,7 +127,7 @@ nav ul li {
 .hero img {
   max-height: 8rem;
   max-width: 8rem;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   /* margin: 5rem; */
 }
 
@@ -155,25 +155,6 @@ nav ul li {
 }
 /* Hero section ends */
 
-/* More about */
-/* .more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-}
-
- */
-/* More about ends */
-
 /* Skills section */
 .skills {
   /* max-width: 68.75rem; */
@@ -191,10 +172,6 @@ nav ul li {
   padding: 1.25rem;
 }
 
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
-}
 /* Skills section ends */
 
 /* Projects section */
@@ -204,8 +181,17 @@ nav ul li {
   margin-top: 2rem;
 }
 
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.project-skills {
+  padding-bottom: 1rem;
+}
+
 .project-pic {
-  width: 65%;
+  width: 70%;
   height: 60%;
 }
 
@@ -226,13 +212,10 @@ nav ul li {
   padding: 1rem;
 }
 
-.project-container p {
+.project-container p,
+.project-container h3,
+.project-container a {
   padding: 0.4rem;
-  color: var(--primary-color);
-}
-
-.project-container h3 {
-  padding-top: 0.4rem;
   color: var(--primary-color);
 }
 
