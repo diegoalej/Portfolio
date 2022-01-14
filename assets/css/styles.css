@@ -155,25 +155,6 @@ nav ul li {
 }
 /* Hero section ends */
 
-/* More about */
-/* .more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-}
-
- */
-/* More about ends */
-
 /* Skills section */
 .skills {
   /* max-width: 68.75rem; */
@@ -191,10 +172,6 @@ nav ul li {
   padding: 1.25rem;
 }
 
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
-}
 /* Skills section ends */
 
 /* Projects section */
@@ -204,8 +181,17 @@ nav ul li {
   margin-top: 2rem;
 }
 
+.icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.project-skills {
+  padding-bottom: 1rem;
+}
+
 .project-pic {
-  width: 65%;
+  width: 70%;
   height: 60%;
 }
 
