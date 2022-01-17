@@ -21,41 +21,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Diego Hoyos | Web Developer</title>
+    <title>Downstream Media</title>
   </head>
 
   <body>
     <!-- Navbar -->
     <nav>
-      <!-- <h1>DIEGO HOYOS</h1> -->
-      <img
+      <a href="#">
+        <img
         src="assets/images/downstreamlogo-11.svg"
-        alt="jane-doe"
+        alt="downstream-logo"
         loading="lazy"
         class="site-logo"
-      />
+        />
+      </a>
       <ul class="navigation">
-        <li><a href="#about" class="nav-link">Resume</a></li>
+        <li><a href="assets/images/Diego_Resume.pdf" class="nav-link">Resume</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
     
     <!-- Hero Section -->
     <section class="hero" id="about">
       <div class="bio animate__animated animate__shakeX">
-        <!-- <h2 class="bio-title">About Me</h2> -->
         <h3 class="bio-text">
             Hi, I'm Diego <br>
             Developer + Designer
         </h3>
         <hr>
         <p>
-          A web developer and designer with a focus in user experience 
+          A software developer and designer with a focus in user experience 
           and building practical solutions
         </p>
       </div>
@@ -66,60 +65,12 @@
         class="hero-img"
       />
     </section>
-    <section class="section-break">
+    <section class="section-break" id="projects">
       <hr>
     </section>
-    <!-- Skills section -->
-    <!-- <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
-
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-          src="assets/icons/icons8-spring-logo.svg"
-          alt=""
-          loading="lazy"
-          class="icon icon-card"
-          />
-          <img
-          src="assets/icons/icons-angular.svg"
-          alt=""
-          loading="lazy"
-          class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-bootstrap.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-
-        <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-html-5.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-css3.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-        </div>
-      </div>
-    </section> -->
 
     <!-- Projects section -->
-    <section class="projects" id="projects">
+    <section class="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
@@ -142,6 +93,12 @@
               loading="lazy"
               class="icon"
             />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="icon"
+            />
           </div>
           <img
           src="assets/images/personal-site.png"
@@ -155,7 +112,7 @@
             in progress as well as a portfolio for past projects. I decided
             to go the simple route with only HTML, CSS and JS.
           </p>
-          <a href="#" target="_blank" class="project-link">You're on it!</a>
+          <a href="https://github.com/diegoalej/Portfolio" target="_blank" class="project-link">See Repository</a>
         </div>
         <div class="project-container project-card">
           <div class="project-skills animate__animated animate__pulse">
@@ -193,10 +150,10 @@
           <h3 class="project-title">TripLeader App</h3>
           <p class="project-details">
             This full-stack application was designed and developed to help
-            fellow guides and adventurers plant their multi-day outings and 
+            fellow guides and adventurers plan their multi-day outings and 
             as a general planning tool for outdoors seekers.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://github.com/diegoalej/TripLeader" target="_blank" class="project-link">See repository</a>
         </div>
         <div class="project-container project-card">
           <div class="project-skills animate__animated animate__pulse">
@@ -221,64 +178,142 @@
           </div>
           <img
           src="assets/images/opentap_screenshot.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
           />
           <h3 class="project-title">OpenTAP Website</h3>
           <p class="project-details">
-            This website was redesigned as a request from the client and 
-            uses custom SVG graphics to create a clean 'community' feel that the company
+            I redesigned this website as a request from the client and 
+            used custom SVG graphics to create a clean 'community' feel that the company
             was looking for as they rebranded their site.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://opentap.io/" target="_blank" class="project-link">Check it Out</a>
         </div>
       </div>
       <div class="projects-container">
         <div class="project-container project-card">
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
+          <div class="project-skills animate__animated animate__pulse">
+            <img
+            src="assets/icons/icons8-spring-logo.svg"
+            alt=""
             loading="lazy"
-            class="project-pic"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons-angular.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-mysql-logo.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+          </div>
+          <img
+          src="assets/images/checkahead-snapshot.png"
+          alt="expense-tracker"
+          loading="lazy"
+          class="project-pic"
           />
-          <h3 class="project-title">Portfolio Website</h3>
+          <h3 class="project-title">CheckAhead App</h3>
           <p class="project-details">
-            This website was developed to display different projects I
-            have in progress and as a portfolio for past projects. You're 
-            on it!
+            This full-stack application was designed and developed in a team
+            of 4 while attending Skill Distillery Coding Bootcamp, it checks
+            grocery story traffic using Google places API.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://github.com/diegoalej/CheckAheadApp" target="_blank" class="project-link">See Repository</a>
         </div>
         <div class="project-container project-card">
-          <img
-            src="assets/images/homepage_screenshot.png"
-            alt="netflic-clone"
+          <div class="project-skills animate__animated animate__pulse">
+            <img
+            src="assets/icons/icons8-spring-logo.svg"
+            alt=""
             loading="lazy"
-            class="project-pic"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-java.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-mysql-logo.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+          </div>
+          <img
+          src="assets/images/urbangarden-snapshot.png"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
           />
-          <h3 class="project-title">TripLeader App</h3>
+          <h3 class="project-title">UrbanGarden App</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            This full-stack app was designed and developed by a team of 3
+            allowing for urban gardeners to exchange and sell extra produce.
+            It was created using Spring and JSPs.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://github.com/diegoalej/MidtermProject" target="_blank" class="project-link">See Repository</a>
         </div>
         <div class="project-container project-card">
-          <img
-            src="assets/images/opentap_screenshot.png"
-            alt="greeny-earth"
+          <div class="project-skills animate__animated animate__pulse">
+            <img
+            src="assets/icons/icons8-wordpress.svg"
+            alt=""
             loading="lazy"
+            class="icon"
+            />
+            <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon"
+            />
+            <img
+              src="assets/icons/icons8-adobe-photoshop.svg"
+              alt=""
+              loading="lazy"
+              class="icon"
+            />
+          </div>
+          <img
+          src="assets/images/dunritex-snapshot.png"
+          alt="greeny-earth"
+          loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">OpenTAP Website</h3>
+          <h3 class="project-title">Dunritex Website</h3>
           <p class="project-details">
-            This website was redesigned as a request from the client and 
-            uses custom SVG graphics to create a clean 'community' feel that the company
-            was looking for as they rebranded their site. 
+            I developed this site for a local client through Lightsource Creative LLC. 
+            It was developed in WordPress using a purchased theme that was then 
+            edited using Bootstrap and CSS styles.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://dunritexinc.com/" target="_blank" class="project-link" >View the site</a>
         </div>
       </div>
     </section>
@@ -286,6 +321,7 @@
     <!-- Contact section -->
     <section class="contact" id="contact">
       <h2>Get In Touch / Hire Me!</h2>
+      <p>email me at <a href="mailto:hoyosdiegoa@gmail.com">hoyosdiegoa@gmail.com</a> or fill out form below</p>
       <div class="contact-form-container">
         <div class="contact-form">
           <form action="https://formspree.io/f/xoqrjvza" method="POST">
@@ -336,21 +372,21 @@
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-      <a href="#" target="_blank"
+      <a href="https://linkedin.com/in/diegoahoyos" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin.svg"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://github.com/diegoalej" target="_blank"
         ><img src="assets/icons/icons8-github.svg" alt="Github" class="socicon"
       /></a>
     </div>
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2021 Downstream Media LLC</p>
+      <p class="copy">&copy; Copyright 2022 Downstream Media LLC</p>
     </footer>
 
     <!-- Website scripts -->
