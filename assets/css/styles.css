@@ -299,6 +299,20 @@ nav ul li {
 }
 /* Social button ends */
 
+/* Scroll to top button */
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 2rem;
+  height: 2rem;
+}
+/* Scroll to top button ends */
+
 /* Footer section */
 footer {
   background-color: var(--bg-color);
